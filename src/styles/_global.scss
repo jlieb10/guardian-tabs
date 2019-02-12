@@ -1,3 +1,8 @@
+// Reveal app when styles and js are loaded
+#root {
+  display: block;
+}
+
 // Basic body setup including some browser resets
 body {
   background: $white;
