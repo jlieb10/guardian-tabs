@@ -1,0 +1,21 @@
+.article-card {
+  padding: 8px;
+
+  &__link {
+    display: block;
+  }
+
+  &__number,
+  &__title {
+    @include title;
+  }
+
+  &__number {
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  &__title {
+    display: inline;
+  }
+}
