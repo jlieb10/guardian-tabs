@@ -1,5 +1,7 @@
 .article-card {
   padding: 8px;
+  min-height: 20px;
+  vertical-align: baseline;
 
   &__link {
     display: block;
@@ -11,7 +13,6 @@
   }
 
   &__number {
-    display: inline-block;
     margin-right: 5px;
   }
 

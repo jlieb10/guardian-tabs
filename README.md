@@ -1,5 +1,6 @@
 ## Tabbed Content Code Example Brainstorm/Notes
 
+- Can be viewed live [here](https://guardian-tabs-lieberman.herokuapp.com/)
 - Bootstrapped with create-react-app (information below)
 - To run: `git clone`, `cd guardian-tabs`, `npm i` || `yarn install`, `yarn start` || `npm start`
 
