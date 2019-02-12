@@ -17,6 +17,7 @@
     text-align: center;
     background: $white;
     padding: 8px 0;
+    border-top: 5px solid $white;
 
     &--uk-news {
       color: $news;
@@ -31,8 +32,19 @@
     }
 
     &--active {
-      text-decoration: underline;
       background: $offwhite;
+    }
+
+    &--active#{&}--uk-news {
+      border-top: 5px solid $news;
+    }
+
+    &--active#{&}--travel {
+      border-top: 5px solid $travel;
+    }
+
+    &--active#{&}--football {
+      border-top: 5px solid $sport;
     }
   }
 
